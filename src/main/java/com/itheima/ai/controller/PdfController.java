@@ -32,7 +32,7 @@ import static org.springframework.ai.chat.client.advisor.QuestionAnswerAdvisor.F
 @RequiredArgsConstructor
 @RestController
 @RequestMapping("/ai/pdf")
-public class PdfController {
+public class  PdfController {
 
     private final FileRepository fileRepository;
 

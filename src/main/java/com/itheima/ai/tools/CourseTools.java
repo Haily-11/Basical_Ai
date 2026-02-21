@@ -17,7 +17,7 @@ import java.util.List;
 
 @RequiredArgsConstructor
 @Component
-public class CourseTools {
+public class  CourseTools {
 
     private final ICourseService courseService;
     private final ISchoolService schoolService;
