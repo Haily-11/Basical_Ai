@@ -5,7 +5,7 @@ spring:
     ollama:
       base-url: http://localhost:11434
       chat:
-        model: deepseek-r1:1.5b
+        model: 
     openai:
       base-url: https://dashscope.aliyuncs.com/compatible-mode
       api-key: ${OPENAI_API_KEY}
@@ -18,9 +18,9 @@ spring:
           dimensions: 1024
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://localhost:3306/hm-springai?serverTimezone=Asia/Shanghai&useSSL=false&useUnicode=true&characterEncoding=utf-8&zeroDateTimeBehavior=convertToNull&transformedBitIsBoolean=true&tinyInt1isBit=false&allowPublicKeyRetrieval=true&allowMultiQueries=true&useServerPrepStmts=false
-    username: root
-    password: 1234
+    url: 
+    username: 
+    password: 
 logging:
   level:
     org.springframework.ai: debug
