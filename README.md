@@ -24,8 +24,8 @@
 - **Particles.js** - 粒子背景动画
 
 ### 数据存储
+- **阿里云OSS** - 图片/文件云存储
 - **MySQL** - 关系型数据库
-- **JPA Repository** - ORM映射
 
 ### 构建工具
 - **Gradle** / **Maven** - 项目构建与依赖管理
@@ -181,6 +181,7 @@ java -jar target/blog-system-1.0.0.jar
 - 💾 **缓存机制** - 热点数据缓存
 - 📦 **资源压缩** - CSS/JS压缩优化
 -  **CDN加速** - 静态资源CDN分发
+-  图片上传OSS
 
 ## 安全特性
 
@@ -189,14 +190,7 @@ java -jar target/blog-system-1.0.0.jar
 - 🚫 **XSS防护** - Thymeleaf自动转义
 - 🔑 **Session管理** - 安全的会话控制
 
-## 扩展计划
 
-- [ ] 文章搜索功能
-- [ ]  Markdown编辑器集成
-- [ ] 图片上传OSS支持
-- [ ] 评论审核机制
-- [ ] 数据统计看板
-- [ ] 移动端APP
 
 ## 开发日志
 
